@@ -1,8 +1,8 @@
-A simple bank account system
+## A simple bank account system
 
-1/ save money API:
+### 1/ save money API:
 
-A POST API, at the endpoint http://localhost:8080/operate, with a json request body like:
+A POST API, at the endpoint `http://localhost:8080/operate`, with a json request body like:
 
 {
   "accountId": "101",
@@ -10,9 +10,9 @@ A POST API, at the endpoint http://localhost:8080/operate, with a json request b
   "amount": 200
 }
 
-2/ retrieve money API:
+### 2/ retrieve money API:
 
-A POST API, at the endpoint http://localhost:8080/operate, with a json request body like:
+A POST API, at the endpoint `http://localhost:8080/operate`, with a json request body like:
 
 {
   "accountId": "101",
@@ -20,14 +20,14 @@ A POST API, at the endpoint http://localhost:8080/operate, with a json request b
   "amount": 50
 }
 
-3/ show history API:
+### 3/ show history API:
 
-A GET API, at the endpoint http://localhost:8080/history/{id}, where id is the client account number.
+A GET API, at the endpoint `http://localhost:8080/history/{id}``, where id is the client account number.
 
 
-Example API call:
+## Example API call:
 
-1/ call http://localhost:8080/operate, with POST method and request body:
+### 1/ call `http://localhost:8080/operate`, with POST method and request body:
 
 {
   "accountId": "101",
@@ -37,7 +37,7 @@ Example API call:
 
 Response: 200 OK.
 
-2/ call http://localhost:8080/operate, with POST method and request body:
+### 2/ call `http://localhost:8080/operate`, with POST method and request body:
 
 {
   "accountId": "101",
@@ -47,7 +47,7 @@ Response: 200 OK.
 
 Response: 200 OK.
 
-3/ call http://localhost:8080/history/101, with GET method.
+### 3/ call `http://localhost:8080/history/101`, with GET method.
 
 Response:
 
