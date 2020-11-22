@@ -22,7 +22,7 @@ A POST API, at the endpoint `http://localhost:8080/operate`, with a json request
 
 ### 3/ show history API:
 
-A GET API, at the endpoint `http://localhost:8080/history/{id}``, where id is the client account number.
+A GET API, at the endpoint `http://localhost:8080/history/{id}`, where id is the client account number.
 
 
 ## Example API call:
